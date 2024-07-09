@@ -8,6 +8,26 @@ body{
     font-family: "Azeret Mono", monospace;
 
 }
+/* shared styles  */
+.description-style{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.frame-btn{
+    /* box-sizing: border-box; */
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);;
+}
 
 /* banner section styles */
 .banner-container{
@@ -24,7 +44,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    
 }
 .banner-title{
     color: rgb(13, 19, 33);
@@ -54,4 +74,95 @@ body{
     padding: 21px 24px;
     margin-top: 32px;
     margin-bottom: 44px;
+}
+
+/* Development section styles  */
+.development{
+    width: 1140px;
+    height: 1393px;
+    border: 2px solid red;
+    padding: 80px 97px 80px 97px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.development-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.dev-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.frame-fast-container{
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    border: 2px solid gold;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    
+}
+.frame-1{
+    display: flex;
+}
+.frame-1-text{
+    width: 50%;
+    height: 336px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.frame-1-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+.frame-1-images{
+    border: 2px solid red; 
+    width: 50%;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-frame-1{
+    margin-right: 327px;
+}
+
+.frame-second-container{
+    margin: 32px;
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    border: 2px solid gold;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+}
+.frame-2{
+    margin: 82px 0px;
+    display: flex;
+}
+.frame-2-text{
+    width: 50%;
+    height: 336px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
 }
