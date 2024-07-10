@@ -17,7 +17,7 @@ body{
     line-height: 26px;
     opacity: 0.7;
 }
-.frame-btn{
+.development-btn{
     /* box-sizing: border-box; */
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -77,96 +77,38 @@ a{
 }
 
 /* Development section styles  */
-.development{
+.development-section{
     width: 1140px;
-    max-height: 1393px;
+    height: 800px;
     border: 2px solid red;
-    padding: 80px 97px 80px 97px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 80px;
+    padding: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
-.development-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 48px;
+.development-section-text{
+    text-align: center;
 }
-.dev-title{
+.development-section-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
-    line-height: 37px;
+    margin-bottom: 24px;
 }
-.frame-fast-container{
-    width: 946px;
-    height: 336px;
-    border-radius: 16px;
-    border: 2px solid gold;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    padding: 48px;
-    
+.development-section-text{
+    margin-bottom: 40px;
 }
-.frame-1{
+/* .development-card-container{
+    display: flex;
+} */
+ .world-card{
+    display: flex;
+ }
+.modern-card{
     display: flex;
 }
-.frame-1-text{
-    width: 50%;
-    height: 336px;
-    border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-.frame-1-title{
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    text-align: left;
-}
-
-.frame-1-images{
-    border: 2px solid red; 
-    width: 50%;
-    height: 336px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.button-frame-1{
-    margin-right: 327px;
-}
-
-.frame-second-container{
-    margin: 32px;
-    width: 946px;
-    height: 336px;
-    border-radius: 16px;
-    border: 2px solid gold;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    padding: 48px;
-}
-.frame-2{
-    margin: 82px 0px;
-    display: flex;
-}
-.frame-2-text{
-    width: 50%;
-    height: 336px;
-    border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    
-}
-
 /* inspiration section styles */
 .inspir{
     max-width: 1140px;
