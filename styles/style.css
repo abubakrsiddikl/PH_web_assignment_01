@@ -79,8 +79,7 @@ a{
 /* Development section styles  */
 .development-section{
     width: 1140px;
-    height: 800px;
-    border: 2px solid red;
+    height: 880px;
     margin: 0 auto;
     margin-top: 80px;
     padding: 80px;
@@ -103,11 +102,31 @@ a{
 /* .development-card-container{
     display: flex;
 } */
+ .development-card-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+ }
  .world-card{
+    height: 165px;
     display: flex;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
  }
 .modern-card{
+    height: 165px;
     display: flex;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+}
+.dev-image{
+    margin-right: 32px;
+}
+.world-card-text{
+    margin-right: 90px;
 }
 /* inspiration section styles */
 .inspir{
