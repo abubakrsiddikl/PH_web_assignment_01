@@ -171,7 +171,6 @@ a{
 .inspir{
     max-width: 1140px;
     height: 775px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 55px;
 }
@@ -189,6 +188,7 @@ a{
 .video{
     margin: 0 auto;
     padding: 48px;
+    border-radius: 16px;
 }
 /* mycurrent section styles */
 .mycurrent{
@@ -254,4 +254,60 @@ a{
     background: rgba(255, 223, 0, 0.05);
     padding-left: 2px;
     padding: 40px;
+}
+
+/* support section styles */
+.support{
+    width: 1140px;
+    height: 280px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background-image: url(../assets/support-bg.jpg);
+    background-position: center;
+    background-size: cover;               
+    background-blend-mode: overlay; 
+    background: rgba(0, 0, 0, 0.16),rgba(0, 0, 0, 0.16),rgba(0, 0, 0, 0.16);
+    
+
+}
+.support-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 700;
+}
+.support-description{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: Azeret Mono;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.feedback-input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+.submit{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px;
 }
