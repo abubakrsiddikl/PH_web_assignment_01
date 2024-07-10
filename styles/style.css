@@ -190,3 +190,68 @@ a{
     margin: 0 auto;
     padding: 48px;
 }
+/* mycurrent section styles */
+.mycurrent{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+.mycurrent-text-container{
+    text-align: center;
+    padding: 20px;
+}
+.mycurrent-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.card-container{
+    display: flex;
+    padding-left: 30px;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.html-card{
+    width: 364px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+.card-btn{
+    color: rgb(13, 19, 33);
+    border: none;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-top: 24px;
+}
+.css-card{
+    width: 364px;
+    height: 250px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+.javascript-card{
+    width: 364px;
+    height: 250px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding-left: 2px;
+    padding: 40px;
+}
