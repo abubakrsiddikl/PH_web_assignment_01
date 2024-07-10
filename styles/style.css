@@ -260,7 +260,6 @@ a{
 .support{
     width: 1140px;
     height: 280px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 50px;
     padding: 64px 48px 64px 48px;
@@ -310,4 +309,25 @@ a{
     border-radius: 8px;
     background: rgb(255, 255, 255);
     padding: 17px 20px;
+}
+
+/* footer section styles */
+.footer-section{
+    width: 1220px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 79px;
+}
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+.content-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
